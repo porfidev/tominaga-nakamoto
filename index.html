@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Universidad Tominaga Nakamoto</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css"/>
+
+    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="js/simpleviewer.js"></script>
+    <script type="text/javascript">
+        var emi = "#menu a";						//Emisor
+        var rec = "#contenedor";					//Receptor
+        var src = "img/cargador.gif";				//Imagen de precarga
+        var iid = "cargando";							//Id de la precarga
+        var pre = '<img src="' + src + '"id="' + iid + '"/>';	//Objeto precarga
+        var spe = "slow";
+
+        $(document).ready(function () {	            //Velocidad del efecto
+            $(emi).each(function () {
+                var href = $(this).attr("href");			//Guardamos el valor de href de cada enlace.
+                $(this).click(function () {					//Cargamos en rec el contenido de cada href y le damos efectos.
+                    if ($(this).attr('href') === "galeria") {
+                        simpleviewer.load('contenedor', '100%', '100%', '222222', true);
+                    } else {
+                        $(rec).hide().after(pre).load(href, function (response, status, xhr) {
+                            if (status !== 'error') {
+                                $("#" + iid).remove();
+                                $(this).fadeIn(spe)
+                            } else {
+                                $(rec).load('404.html', function () {
+                                    $("#" + iid).remove();
+                                    $(this).fadeIn(spe)
+                                });
+                            }
+                        });
+                    }
+
+                    return false;							//Para que no se redireccione.
+                });
+            });
+
+            $("#header").on("click", function () {
+                window.location = "index.html";
+            })
+        });
+
+    </script>
+</head>
+
+<body>
+<div id="centrado">
+    <div id="header" style="cursor: pointer"></div>
+    <div id="menu">
+        <ul>
+            <li class="nivel1"><a href="acerca/misionyvision.html" class="nivel1">Acerca de...</a>
+                <!--[if lte IE 6]><a href="http://www.forosdelweb.com" class="nivel1ie">Opción 1
+                    <table class="falsa">
+                        <tr>
+                            <td><![endif]-->
+                <ul class="sub">
+                    <li><a href="acerca/misionyvision.html">Misión y Visión</a></li>
+                    <li><a href="acerca/historia.html">Historia</a></li>
+                </ul>
+                <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+            </li>
+            <li class="nivel1"><a href="directorio/index.html" class="nivel1">Directorio</a>
+            </li>
+            <li class="nivel1"><a href="simpleviewer/index.html" class="nivel1">Instalaciones</a>
+                <!--[if lte IE 6]><a href="#" class="nivel1ie">Opción 3
+                    <table class="falsa">
+                        <tr>
+                            <td><![endif]-->
+                <ul class="sub">
+                    <li><a href="ubicacion.html">Ubicación</a></li>
+                    <li><a href="galeria">Fotografías</a></li>
+                </ul>
+                <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+            </li>
+            <li class="nivel1"><a href="licenciaturas/index.html" class="nivel1">Licenciaturas</a>
+                <!--[if lte IE 6]><a href="#" class="nivel1ie">Opción 4
+                    <table class="falsa">
+                        <tr>
+                            <td><![endif]-->
+                <ul class="sub">
+                    <li><a href="licenciaturas/medicina.html">Medicina</a></li>
+                    <li><a href="licenciaturas/administracion.html">Administración</a></li>
+                    <li><a href="licenciaturas/derecho.html">Derecho</a></li>
+                    <li><a href="licenciaturas/contaduria.html">Contaduría Pública</a></li>
+                    <li><a href="licenciaturas/educacion.html">Ciencias de la Educación</a></li>
+                    <li><a href="licenciaturas/sistemas.html">Ingeniería en Sistemas Computacionales</a></li>
+                    <li><a href="licenciaturas/gastronomia.html">Gastronomía</a></li>
+                </ul>
+                <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+            </li>
+            <li class="nivel1"><a href="contacto.html" class="nivel1">Contacto</a></li>
+        </ul>
+    </div>
+    <div id="contenido">
+        <div id="contenedor">
+            <div style="text-align:center;"><img src="img/inicio.png" border="0"/></div>
+        </div>
+    </div>
+    <div id="footer">
+        <div style=" background-color: #099; color: #000;">
+            <p><br/></p>
+            <p>Sitio Optimizado para: <a href="http://www.microsoft.com/spain/windows/internet-explorer/">Internet
+                Explorer 8+</a>, <a href="http://www.mozilla-europe.org/es/firefox/">Firefox</a> y <a
+                    href="http://www.apple.com/es/safari/">Safari</a></p>
+            <p><br/>
+            </p>
+        </div>
+        <p>&nbsp;</p>
+        <p><strong>Derechos Reservados 2009 &copy; Escuela de Medicina Tominaga Nakamoto</strong></p>
+        <p>Luis Freg. No. 6 y 12, Colonia Lomas de Sotelo, Naucalpan de Juárez, Edo. de México</p>
+        <p>C.P. 53390 - Tels. (01 55) 53593359, 55761278 y (01 86) 62041013 - Lada sin costo: 01 800 83 15 111</p>
+        <p>&nbsp;</p>
+    </div>
+</div>
+
+</body>
+</html>
