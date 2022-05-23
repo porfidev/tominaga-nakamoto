@@ -2,118 +2,117 @@
 
 <simpleviewergallery
 
-        galleryStyle="CLASSIC"
-        title="Galería"
-        textColor="FFFFFF"
-        frameColor="FFFFFF"
-        frameWidth="20"
-        thumbPosition="LEFT"
-        thumbColumns="3"
-        thumbRows="3"
-        showOpenButton="TRUE"
-        showFullscreenButton="TRUE"
-        maxImageWidth="640"
-        maxImageHeight="640"
-        useFlickr="false"
-        flickrUserName=""
-        flickrTags=""
-        languageCode="AUTO"
-        languageList=""
-        imagePath="fotos/"
-        thumbPath="fotos/thumbs/"
+  galleryStyle="CLASSIC"
+  title="Galería"
+  textColor="FFFFFF"
+  frameColor="FFFFFF"
+  frameWidth="20"
+  thumbPosition="LEFT"
+  thumbColumns="3"
+  thumbRows="3"
+  showOpenButton="TRUE"
+  showFullscreenButton="TRUE"
+  maxImageWidth="640"
+  maxImageHeight="640"
+  useFlickr="false"
+  flickrUserName=""
+  flickrTags=""
+  languageCode="AUTO"
+  languageList=""
+  imagePath="fotos/"
+  thumbPath="fotos/thumbs/"
 
 >
-    <image imageURL="fotos/DSC_0181.jpg" thumbURL="fotos/thumbs/DSC_0181.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0182.jpg" thumbURL="fotos/thumbs/DSC_0182.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0183.jpg" thumbURL="fotos/thumbs/DSC_0183.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0187.jpg" thumbURL="fotos/thumbs/DSC_0187.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0189.jpg" thumbURL="fotos/thumbs/DSC_0189.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0189.jpg" thumbURL="fotos/thumbs/DSC_0189.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0191.jpg" thumbURL="fotos/thumbs/DSC_0191.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0192.jpg" thumbURL="fotos/thumbs/DSC_0192.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0203.jpg" thumbURL="fotos/thumbs/DSC_0203.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0205.jpg" thumbURL="fotos/thumbs/DSC_0205.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0206.jpg" thumbURL="fotos/thumbs/DSC_0206.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0209.jpg" thumbURL="fotos/thumbs/DSC_0209.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0210.jpg" thumbURL="fotos/thumbs/DSC_0210.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0211.jpg" thumbURL="fotos/thumbs/DSC_0211.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0215.jpg" thumbURL="fotos/thumbs/DSC_0215.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0219.jpg" thumbURL="fotos/thumbs/DSC_0219.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0221.jpg" thumbURL="fotos/thumbs/DSC_0221.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0222.jpg" thumbURL="fotos/thumbs/DSC_0222.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0223.jpg" thumbURL="fotos/thumbs/DSC_0223.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0226.jpg" thumbURL="fotos/thumbs/DSC_0226.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0231.jpg" thumbURL="fotos/thumbs/DSC_0231.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0233.jpg" thumbURL="fotos/thumbs/DSC_0233.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0240.jpg" thumbURL="fotos/thumbs/DSC_0240.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0241.jpg" thumbURL="fotos/thumbs/DSC_0241.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0256.jpg" thumbURL="fotos/thumbs/DSC_0256.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0258.jpg" thumbURL="fotos/thumbs/DSC_0258.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0263.jpg" thumbURL="fotos/thumbs/DSC_0263.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0270.jpg" thumbURL="fotos/thumbs/DSC_0270.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0274.jpg" thumbURL="fotos/thumbs/DSC_0274.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-    <image imageURL="fotos/DSC_0279.jpg" thumbURL="fotos/thumbs/DSC_0279.jpg" linkURL="" linkTarget="">
-        <caption></caption>
-    </image>
-
+  <image imageURL="fotos/DSC_0181.jpg" thumbURL="fotos/thumbs/DSC_0181.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0182.jpg" thumbURL="fotos/thumbs/DSC_0182.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0183.jpg" thumbURL="fotos/thumbs/DSC_0183.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0187.jpg" thumbURL="fotos/thumbs/DSC_0187.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0189.jpg" thumbURL="fotos/thumbs/DSC_0189.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0189.jpg" thumbURL="fotos/thumbs/DSC_0189.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0191.jpg" thumbURL="fotos/thumbs/DSC_0191.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0192.jpg" thumbURL="fotos/thumbs/DSC_0192.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0203.jpg" thumbURL="fotos/thumbs/DSC_0203.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0205.jpg" thumbURL="fotos/thumbs/DSC_0205.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0206.jpg" thumbURL="fotos/thumbs/DSC_0206.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0209.jpg" thumbURL="fotos/thumbs/DSC_0209.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0210.jpg" thumbURL="fotos/thumbs/DSC_0210.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0211.jpg" thumbURL="fotos/thumbs/DSC_0211.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0215.jpg" thumbURL="fotos/thumbs/DSC_0215.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0219.jpg" thumbURL="fotos/thumbs/DSC_0219.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0221.jpg" thumbURL="fotos/thumbs/DSC_0221.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0222.jpg" thumbURL="fotos/thumbs/DSC_0222.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0223.jpg" thumbURL="fotos/thumbs/DSC_0223.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0226.jpg" thumbURL="fotos/thumbs/DSC_0226.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0231.jpg" thumbURL="fotos/thumbs/DSC_0231.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0233.jpg" thumbURL="fotos/thumbs/DSC_0233.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0240.jpg" thumbURL="fotos/thumbs/DSC_0240.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0241.jpg" thumbURL="fotos/thumbs/DSC_0241.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0256.jpg" thumbURL="fotos/thumbs/DSC_0256.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0258.jpg" thumbURL="fotos/thumbs/DSC_0258.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0263.jpg" thumbURL="fotos/thumbs/DSC_0263.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0270.jpg" thumbURL="fotos/thumbs/DSC_0270.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0274.jpg" thumbURL="fotos/thumbs/DSC_0274.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
+  <image imageURL="fotos/DSC_0279.jpg" thumbURL="fotos/thumbs/DSC_0279.jpg" linkURL="" linkTarget="">
+    <caption></caption>
+  </image>
 
 
 </simpleviewergallery>
