@@ -1,6 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0px;
+  margin: 0;
   text-align: center;
   background-image: url(img/fondo_pagina.png);
   background-repeat: repeat;
@@ -42,10 +42,7 @@ body {
 
 #marco {
   width: 800px;
-  margin-top: 0px;
-  margin-right: 0;
-  margin-bottom: 4px;
-  margin-left: 0;
+  margin: 0 0 4px;
   text-align: left;
 }
 
@@ -58,8 +55,8 @@ body {
 /* OPCIONES DEL MENU */
 
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   outline: 0;
 }
 
@@ -92,10 +89,6 @@ body {
 #menu ul {
   margin: 0 auto;
   list-style-type: none;
-  /*
-  filter: alpha(opacity=90);
-opacity: .9;
--moz-opacity: 0.9; */
 }
 
 ul.sub {
@@ -106,8 +99,8 @@ ul.sub {
   float: left;
   width: 160px;
   margin-top: 6px;
-  margin-right: 0px;
-  margin-left: 0px;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 #menu ul li a {
@@ -131,8 +124,6 @@ ul.sub {
 
 #menu ul li a.nivel1 {
   position: relative;
-  display: block !important;
-  display: none;
 }
 
 #menu ul li ul {
@@ -141,17 +132,16 @@ ul.sub {
 
 #menu ul li a:hover ul, #menu ul li:hover ul {
   position: absolute;
-  left: 0px;
+  left: 0;
   display: block;
 }
 
 #menu ul li ul li a {
   width: 160px;
-  padding: 4px 0px 4px 0px;
+  padding: 4px 0 4px 0;
 }
 
 #menu ul li ul li a:hover {
-  /* border-top-color: #004747; */
   position: relative;
 }
 
@@ -159,7 +149,7 @@ table.falsa {
   position: relative;
   float: left;
   border-collapse: collapse;
-  border: 0px;
+  border: 0;
 }
 
 /* PAGINAS */
