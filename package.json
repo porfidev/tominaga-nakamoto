@@ -1,0 +1,30 @@
+{
+  "name": "web-tominaga-nakamoto",
+  "version": "1.0.0",
+  "description": "Sitio desarrollador para la Universidad Tominaga Nakamoto en 2009",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/porfidev/tominaga-nakamoto.git"
+  },
+  "keywords": [
+    "web",
+    "medicina",
+    "desarrollo",
+    "programacion"
+  ],
+  "author": "Porfirio Chávez <hola@porfi.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/porfidev/tominaga-nakamoto/issues"
+  },
+  "homepage": "https://github.com/porfidev/tominaga-nakamoto#readme",
+  "dependencies": {
+    "http-server": "^14.1.0",
+    "prettier": "^2.6.2"
+  }
+}
