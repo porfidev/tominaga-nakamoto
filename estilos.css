@@ -30,10 +30,11 @@ body {
 }
 
 #centrado {
-  width: 800px;
-  height: 326px;
+  max-width: 800px;
+  min-height: 326px;
   margin: 0 auto;
   background-image: url(img/fondo_header.png);
+  background-repeat: no-repeat;
 }
 
 .nada {
