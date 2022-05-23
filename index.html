@@ -8,50 +8,7 @@
 
   <script type='text/javascript' src='js/jquery-1.12.4.min.js'></script>
   <script type='text/javascript' src='js/simpleviewer.js'></script>
-  <script type='text/javascript'>
-    const navigationMenu = '#menu a'; //Emisor
-    const container = '#contenedor'; //Receptor
-    const showSpeed = 'slow';
-    const loading = '#cargando';
-
-    $(document).ready(function() {
-      $(loading).hide();
-
-      //Velocidad del efecto
-      $(navigationMenu).each(function() {
-        const href = $(this).attr('href'); //Guardamos el valor de href de cada enlace.
-        $(this).click(function() {
-          $(loading).show();
-          //Cargamos en rec el contenido de cada href y le damos efectos.
-          if ($(this).attr('href') === 'galeria') {
-            simpleviewer.load('contenedor', '100%', '100%', '222222', true);
-            $(loading).hide();
-          } else {
-            $(container)
-              .hide()
-              .load(href, function(response, status) {
-                setTimeout(() => {
-                  $(loading).hide();
-                  if (status !== 'error') {
-                    $(this).fadeIn(showSpeed);
-                  } else {
-                    $(container).load('404.html', function() {
-                      $(this).fadeIn(showSpeed);
-                    });
-                  }
-                }, 200);
-              });
-          }
-
-          return false; //Para que no se redireccione.
-        });
-      });
-
-      $('#header').on('click', function() {
-        window.location = 'index.html';
-      });
-    });
-  </script>
+  <script type='text/javascript' src='js/main.js'></script>
 </head>
 
 <body>
@@ -96,7 +53,9 @@
       <img alt='loading-image' src='img/cargador.gif' />
     </div>
     <div id='contenedor'>
-      <div style='text-align: center'><img alt='inicio' src='img/inicio.png' border='0' /></div>
+      <div style='text-align: center'>
+        <img id='inicio' src='img/inicio.png' border='0' width='700' height='300' usemap='#iniciomap' alt='inicio' />
+      </div>
     </div>
   </div>
   <div id='footer'>
@@ -123,5 +82,11 @@
     </div>
   </div>
 </div>
+
+<map name='iniciomap' id='iniciomap'>
+  <area alt='' title='' href='licenciaturas/index.html' shape='rect' coords='361,24,679,139' style='outline:none;'
+        target='_self' />
+  <area alt='' title='' href='galeria' shape='rect' coords='362,151,678,266' style='outline:none;' target='_self' />
+</map>
 </body>
 </html>
